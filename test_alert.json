@@ -1,0 +1,16 @@
+
+{
+  "rule": {
+    "id": "5710",
+    "level": 5,
+    "description": "sshd: Attempt to login using a non-existent user"
+  },
+  "agent": {
+    "id": "001",
+    "name": "ubuntu-teste"
+  },
+  "data": {
+    "srcip": "192.0.2.10",
+    "srcuser": "usuario_inexistente"
+  }
+}
